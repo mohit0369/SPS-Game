@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(247, 125, 26);
+    color: rgb(255, 255, 255);
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;             /* jitni height hai utni height dedo text to ko to block ke center me aa jaega*/
+}
+
+.choice{
+    height: 250px;
+    width: 250px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;   /*image stretch nd contact km hogi */
+    border-radius: 60%;
+
+}
+
+.choices{
+    display: flex;   /* ek line me aa jaegi saari choices horizontally*/
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2.5rem;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background-color: rgb(221, 235, 148);
+    cursor:crosshair;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem ;
+}
+
+#user-score,#comp-score{
+    font-size: 5rem;
+}
+
+#msg{
+    margin-top: 5rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
